@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+/* Apply styles to the holder to make it a flex container */
+.holder {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100vw; /* 100% viewport width */
+  height: 100vh; /* 100% viewport height */
+  background-color: lightgray; /* Optional background color for the holder */
+}
+
+/* Apply styles to item-1 to set its size and background color */
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* Additional styles for item-1, if needed */
+}
